@@ -17,17 +17,39 @@ Ensure you have installed [Ruby](https://www.ruby-lang.org/en/downloads/), [Ruby
 
 1. Start a console session (if it's your first time, see this [helpful tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-irb-to-explore-ruby)): ```irb```
 
-1. Load the template library: ```require 'xxxxxxx'```
-
-1. Calculate an exchange rate: ```xxxxx```
+1. Start using your vending machine: ```xxxxx```
 
 ## User stories
 
 ### Till
+Data
+* Product: name, price and quantity
+* Money: denomination and quantity 
+
+Behaviour
+* List all the products and their attributes
+* List the money data and its attributes
+* Receive products and money from the **owner**
+* Calculate a total price for a **customer**
+* Receive payment from a **customer** and change money data accordingly
+* Calculate **customer** payment balance
+* Give change to customer and change money data accordingly
+* Confirm product purchase to **customer**
+* State changed list of products and money after **owner** has made a change
+
 
 ### Customer
+Behaviour
+* **Receive** for list of products and their attributes
+* **State** product(s) and quantity to buy
+* **Receive** total price
+* **State** payment by giving money with its attributes
+* **Receive** payment balance and a notification if you have a) made the full payment, b) will be given change or c) have an outstanding balance.
+* **Receive** confirmation of purchase
 
 ### Owner
+* **Receives** the list of products and money including all their attributes
+* Can **add** to the list of products and money
 
 ## Design Decisions
 xxxxxxx

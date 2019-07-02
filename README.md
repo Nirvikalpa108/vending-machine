@@ -22,34 +22,35 @@ Ensure you have installed [Ruby](https://www.ruby-lang.org/en/downloads/), [Ruby
 ## User stories
 
 ### Till
-Data
-* Product: name, price and quantity
-* Money: denomination and quantity 
+*Data*
+* **Product**: name, price and quantity
+* **Money**: denomination and quantity 
 
-Behaviour
+*Behaviour*
 * List all the products and their attributes
 * List the money data and its attributes
 * Receive products and money from the **owner**
+* State changed list of products and money after **owner** has made a change
 * Calculate a total price for a **customer**
 * Receive payment from a **customer** and change money data accordingly
 * Calculate **customer** payment balance
-* Give change to customer and change money data accordingly
+* Give change to **customer** and change money data accordingly
 * Confirm product purchase to **customer**
-* State changed list of products and money after **owner** has made a change
-
 
 ### Customer
-Behaviour
-* **Receive** for list of products and their attributes
-* **State** product(s) and quantity to buy
+*Behaviour*
+* **Receive** list of products and their attributes
+* **State** product(s) and quantity
 * **Receive** total price
-* **State** payment by giving money with its attributes
+* **State** payment 
 * **Receive** payment balance and a notification if you have a) made the full payment, b) will be given change or c) have an outstanding balance.
 * **Receive** confirmation of purchase
 
 ### Owner
-* **Receives** the list of products and money including all their attributes
-* Can **add** to the list of products and money
+*Behaviour*
+* **Receive** the list of products and money
+* **Add** to the list of products and money
+* **Receive** confirmation of any additions made to product or money
 
 ## Design Decisions
 xxxxxxx

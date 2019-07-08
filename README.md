@@ -21,36 +21,18 @@ Ensure you have installed [Ruby](https://www.ruby-lang.org/en/downloads/), [Ruby
 
 ## User stories
 
-### Till
-*Data*
-* **Product**: name, price and quantity
-* **Money**: denomination and quantity 
-
-*Behaviour*
-* List all the products and their attributes
-* List the money data and its attributes
-* Receive products and money from the **owner**
-* State changed list of products and money after **owner** has made a change
-* Calculate a total price for a **customer**
-* Receive payment from a **customer** and change money data accordingly
-* Calculate **customer** payment balance
-* Give change to **customer** and change money data accordingly
-* Confirm product purchase to **customer**
-
 ### Customer
-*Behaviour*
-* **Receive** list of products and their attributes
-* **State** product(s) and quantity
-* **Receive** total price
-* **State** payment 
-* **Receive** payment balance and a notification if you have a) made the full payment, b) will be given change or c) have an outstanding balance.
-* **Receive** confirmation of purchase
+* As a customer, I would like to read a list of the **products and their prices**, so that I can determine what I would like to buy. 
+* As a customer, I would like to **make a selection**, so that I can purchase a snack.
+* As a customer, I would like to be told my **total price** to pay, so that I can make my purchase.
+* As a customer, I would like to **deposit money** into the vending machine and **receive change** if required, so that I can make my payment.
+* As a customer, I would like to receive a **confirmation that my snack has been delivered** so that I can be sure my purchase has been successfully completed.
 
 ### Owner
-* As an owner, I can read a list of all the product names and their quantities currently inside the vending machine, so that I can determine what I need to re-stock.
-* As an owner, I would like to read a list of all the money denominations in the vending machine and their quantities, so that I can determine if I need to add or remove any money.
-* As an owner, I can add products to the vending machine so that I can re-stock it.
-* As an owner, I can add and and remove money from the vending machine so that I can collect my revenue and also add change if required.
+* As an owner, I can read a list of all the **product names and their quantities** currently inside the vending machine, so that I can determine what I need to re-stock.
+* As an owner, I would like to read a list of all the **money denominations** in the vending machine and their **quantities**, so that I can determine if I need to add or remove any money.
+* As an owner, I can **add products** with their **prices** to the vending machine so that I can re-stock it.
+* As an owner, I can **add and and remove money** from the vending machine so that I can collect my revenue and also add change if required.
 
 ## Design Decisions
 xxxxxxx

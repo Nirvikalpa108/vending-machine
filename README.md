@@ -26,7 +26,6 @@ Ensure you have installed [Ruby](https://www.ruby-lang.org/en/downloads/), [Ruby
 * As a customer, I would like to **make a selection**, so that I can purchase a snack.
 * As a customer, I would like to be told my **total price** to pay, so that I can make my purchase.
 * As a customer, each time I enter money into the machine, I would like to be told my **oustanding balance** so I know how much I have left to pay.
-* As a customer, I would like to receive a **confirmation that my snack has been delivered** so that I can be sure my purchase has been successfully completed.
 
 ### Owner
 * As an owner, I can read a list of all the **product names and their quantities** currently inside the vending machine, so that I can determine what I need to re-stock.

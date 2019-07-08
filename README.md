@@ -47,7 +47,10 @@ Ensure you have installed [Ruby](https://www.ruby-lang.org/en/downloads/), [Ruby
 xxxxxxxxxx
 
 ## Forthcoming Progressive Enhancements
-In the first iteration of this programme, we have focused only on the customer user journey due to time constraints. We will complete the owner's user journey in a forthcoming iteration. 
+* In the first iteration of this programme, we have focused only on the customer user journey due to time constraints. We will complete the owner's user journey in a forthcoming iteration. 
+* We have left out key features required for the customer user journey, again due to time constraints. This includes stating the quantity of each product as soon as the programme is run, along with the product name and price.
+* In addition, we would like to make it possible for a customer to purchase more than one product and for them to be prompted if they have misspelt it.
+* We would like the programme to offer change to the customer and say which denominations of change are available.
 
 ## Help
 If you run into any problems in the setup or installation of this programme, please raise an issue or if you're not familiar with GitHub, please feel free to reach out on [Twitter](https://twitter.com/a_adewusi). 

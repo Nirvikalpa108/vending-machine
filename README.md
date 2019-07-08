@@ -24,16 +24,16 @@ Ensure you have installed [Ruby](https://www.ruby-lang.org/en/downloads/), [Ruby
 ### Customer
 * As a customer, I would like to read a list of the **products and their prices**, so that I can determine what I would like to buy. 
 
-(*As soon as the programme begins, the hash which contains the list of products and their prices will be printed to the console.*)
+*As soon as the programme begins, the hash which contains the list of products and their prices will be printed to the console.*
 * As a customer, I would like to **make a selection**, so that I can purchase a snack. 
 
-(*The programme prints the request, "Type the name of one snack which you would like to buy". The user can type the name of one snack that they want, which should be typed in exactly the same way that it is contained in the hash.*)
+*The programme prints the request, "Type the name of one snack which you would like to buy". The user can type the name of one snack that they want, which should be typed in exactly the same way that it is contained in the hash.*
 * As a customer, I would like to know **which money denominations** are in the vending machine, so that I can input the correct amount of money and receive change that is available in the machine. 
 
-(*The programme says "no change is given" and asks for "exact payment only". This feature will be improved, along with many others, in the future! See the [Forthcoming Progressive Enhancements](https://github.com/Nirvikalpa108/vending-machine/blob/master/README.md#forthcoming-progressive-enhancements) section for further details.*)
+*The programme says "no change is given" and asks for "exact payment only". This feature will be improved, along with many others, in the future! See the [Forthcoming Progressive Enhancements](https://github.com/Nirvikalpa108/vending-machine/blob/master/README.md#forthcoming-progressive-enhancements) section for further details.*
 * As a customer, each time I enter money into the machine, I would like to be told my **oustanding balance** so I know how much I have left to pay. 
 
-(*the user is prompted to add money into the machine, until the outstanding balance is zero or less.*)
+*the user is prompted to add money into the machine, until the outstanding balance is zero or less.*
 
 ### Owner
 * As an owner, I can read a list of all the **product names and their quantities** currently inside the vending machine, so that I can determine what I need to re-stock.

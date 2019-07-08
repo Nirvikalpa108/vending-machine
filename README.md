@@ -37,7 +37,7 @@ Ensure you have installed [Ruby](https://www.ruby-lang.org/en/downloads/), [Ruby
 xxxxxxxxxx
 
 ## Forthcoming Progressive Enhancements
-In the first iteration of this programme, we have focused only on the customer user journey. We will complete the owner's user journey in a forthcoming iteration. 
+In the first iteration of this programme, we have focused only on the customer user journey due to time constraints. We will complete the owner's user journey in a forthcoming iteration. 
 
 ## Help
 If you run into any problems in the setup or installation of this programme, please raise an issue or if you're not familiar with GitHub, please feel free to reach out on [Twitter](https://twitter.com/a_adewusi). 

@@ -7,7 +7,5 @@ describe 'Vending machine' do
   end
 end
 
-# User prompted to type snack choice
-# Programme asks them to enter their money (and tells them how to type it)
-# User enters money
-# Machine calculates how much they have left to pay until their oustanding balance is zero or less
+# User enters snack choice (after being prompted) and programme tells them correct price
+# User enters money (after being prompted) and programme calculates how much they have left to pay and does so until their oustanding balance is zero or less

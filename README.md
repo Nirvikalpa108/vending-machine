@@ -34,10 +34,10 @@ Ensure you have installed [Ruby](https://www.ruby-lang.org/en/downloads/), [Ruby
 * As an owner, I can **add and and remove money** from the vending machine so that I can collect my revenue and also add change if required.
 
 ## Design Decisions
-xxxxxxx
+xxxxxxxxxx
 
 ## Forthcoming Progressive Enhancements
-xxxxxxx 
+In the first iteration of this programme, we have focused only on the customer user journey. We will complete the owner's user journey in a forthcoming iteration. 
 
 ## Help
 If you run into any problems in the setup or installation of this programme, please raise an issue or if you're not familiar with GitHub, please feel free to reach out on [Twitter](https://twitter.com/a_adewusi). 

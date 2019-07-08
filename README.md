@@ -1,6 +1,6 @@
 # Vending Machine
 
-This command line Ruby programme will satisfy all your snack needs, offering you a vending machine! Come snack with us!
+This Ruby script will satisfy all your snack needs, offering you a vending machine! Come snack with us!
 
 ## Setup 
 
@@ -47,10 +47,10 @@ Ensure you have installed [Ruby](https://www.ruby-lang.org/en/downloads/), [Ruby
 * **Receive** confirmation of purchase
 
 ### Owner
-*Behaviour*
-* **Receive** the list of products and money
-* **Add** to the list of products and money
-* **Receive** confirmation of any additions made to product or money
+* As an owner, I can read a list of all the product names and their quantities currently inside the vending machine, so that I can determine what I need to re-stock.
+* As an owner, I would like to read a list of all the money denominations in the vending machine and their quantities, so that I can determine if I need to add or remove any money.
+* As an owner, I can add products to the vending machine so that I can re-stock it.
+* As an owner, I can add and and remove money from the vending machine so that I can collect my revenue and also add change if required.
 
 ## Design Decisions
 xxxxxxx

@@ -5,7 +5,13 @@ describe 'Vending machine' do
     expect { Purchase.new }.to output("Snickers: £1, Bounty: £1.50. Which snack would you like to buy? (Please note that no change is given).").to_stdout do
     end
   end
-end
 
-# User enters snack choice (after being prompted) and programme tells them correct price
-# User enters money (after being prompted) and programme calculates how much they have left to pay and does so until their oustanding balance is zero or less
+  it 'asks for selected snack and returns correct price' do
+    allow(display).to receive("Bounty").and_return("£1.50")
+  end
+
+  it 'asks for payment and returns outstanding balance until zero' do
+    allow(display).to receive("1.5")
+    expect{display.pay}.to output("Thank you! Payment complete!").to_stdout
+  end
+end

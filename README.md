@@ -55,7 +55,7 @@ xxxxxxxxxx
 
 ## Forthcoming Progressive Enhancements
 * In the first iteration of this programme, we have focused only on the customer user journey and the business logic (rather than a programme you can interact with in the console), due to time constraints.
-* In the future we would like to make it possible for a customer to purchase more than one product and to be offered change.
+* In the future we would like to make it possible for a customer to purchase more than one product, to put money into the machine more than once in order to pay and to be offered greater than one denomination of change. 
 
 ## Help
 If you run into any problems in the setup or installation of this programme, please raise an issue or if you're not familiar with GitHub, please feel free to reach out on [Twitter](https://twitter.com/a_adewusi). 

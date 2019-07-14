@@ -18,7 +18,7 @@ class VendingMachine
   def change(selection, payment)
     balance = sell(selection, payment)
     if balance >= 1 && TILL.key?(balance)
-      # do value - 1 for TILL[balance]
+      TILL[balance] -= 1
     else
       puts "no exact change available"
     end

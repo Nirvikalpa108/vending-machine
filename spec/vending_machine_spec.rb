@@ -29,4 +29,8 @@ describe 'Vending machine' do
     new_total = VendingMachine.new.change("Bounty", 200)
     expect(new_total).to eq(29)
   end
+
+  it 'returns "no exact change available" if exact change not given' do
+    expect(VendingMachine.new.change("Maltesers", 200)).to eq("no exact change available")
+  end
 end

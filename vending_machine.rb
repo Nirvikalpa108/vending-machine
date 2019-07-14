@@ -20,7 +20,7 @@ class VendingMachine
     if balance >= 1 && TILL.key?(balance)
       TILL[balance] -= 1
     else
-      puts "no exact change available"
+      "no exact change available"
     end
   end
 end

@@ -49,12 +49,15 @@ Ensure you have installed [Ruby](https://www.ruby-lang.org/en/downloads/), [Ruby
 * As an owner, I can **add and and remove money** from the vending machine so that I can collect my revenue and also add change if required.
 
 ## Design Decisions
-xxxxxxxxxx
+We have designed a minimum viable vending machine experience, which accepts one snack purchase and gives one round of change if this equals the exact denomination of money held in the till.
+
+The code has been designed so that the `sell` method controls the business logic and pulls the implementation of this from the private methods. We've tried to make the method and variable names as readable as possible.
+
+Finally, we have included tests of the private methods in order to aid de-bugging which will make future changes to the code easier (we hope)!
 
 ## Forthcoming Progressive Enhancements
 * In the first iteration of this programme, we have focused only on the customer user journey and the business logic (rather than a programme you can interact with in the console), due to time constraints.
 * In the future we would like to make it possible for a customer to purchase more than one product, to put money into the machine more than once in order to pay and to be offered greater than one denomination of change. 
-* We would also like for the payment to change the amount of money in the till.
 
 ## Help
 If you run into any problems in the setup or installation of this programme, please raise an issue or if you're not familiar with GitHub, please feel free to reach out on [Twitter](https://twitter.com/a_adewusi). 

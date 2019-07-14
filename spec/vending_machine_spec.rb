@@ -26,8 +26,7 @@ describe 'Vending machine' do
   end
 
   it 'returns change' do
-    total = VendingMachine::TILL[VendingMachine::SNACKS["Bounty"]]
-    expect(VendingMachine::TILL[VendingMachine.new.change("Bounty", 200)])
-        .to eq(total - 1)
+    new_total = VendingMachine.new.change("Bounty", 200)
+    expect(new_total).to eq(29)
   end
 end

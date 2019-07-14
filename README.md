@@ -17,7 +17,7 @@ Ensure you have installed [Ruby](https://www.ruby-lang.org/en/downloads/), [Ruby
 
 1. Start a console session (if it's your first time, see this [helpful tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-irb-to-explore-ruby)): ```irb -r ./vending_machine.rb```
 
-1. Start using your vending machine: ```VendingMachine.new.sell("snack", payment)```
+1. Start using your vending machine: ```VendingMachine.new.sell("snack", payment)```, for example ```VendingMachine.new.sell("Bounty", 100)```
 
 ## User stories
 

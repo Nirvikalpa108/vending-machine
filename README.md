@@ -25,18 +25,23 @@ Ensure you have installed [Ruby](https://www.ruby-lang.org/en/downloads/), [Ruby
 
 ### Customer
 * As a customer, I would like to read a list of the **products and their prices**, so that I can determine what I would like to buy. 
+
 *There is a list of products and prices.*
 
 * As a customer, I would like to **make a selection**, so that I can purchase a snack. 
+
 *One product can be selected and it's price returned to the user.*
 
 * As a customer, I would like to know **which money denominations** are in the vending machine, so that I can input the correct amount of money and receive change that is available in the machine. 
+
 *There is a list of money denominations currently in the vending machine.*
 
 * As a customer, each time I enter money into the machine, I would like to be told my **oustanding balance** so I know how much I have left to pay. 
+
 *It is possible to pay money into the machine and receive an outstanding balance.*
 
 * As a customer, I would like to receive change for my payment so that I can pay the correct amount.
+
 *The vending machine issues exact change.*
 
 ### Owner

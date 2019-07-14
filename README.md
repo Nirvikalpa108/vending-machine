@@ -26,16 +26,16 @@ Ensure you have installed [Ruby](https://www.ruby-lang.org/en/downloads/), [Ruby
 ### Customer
 * As a customer, I would like to read a list of the **products and their prices**, so that I can determine what I would like to buy. 
 
-*As soon as the programme begins, the hash which contains the list of products and their prices will be printed to the console.*
+*There is a list of products and prices.*
 * As a customer, I would like to **make a selection**, so that I can purchase a snack. 
 
-*The programme prints the request, "Type the name of one snack which you would like to buy". The user can type the name of one snack that they want, which should be typed in exactly the same way that it is contained in the hash.*
+*One product can be selected and it's price returned to the user.*
 * As a customer, I would like to know **which money denominations** are in the vending machine, so that I can input the correct amount of money and receive change that is available in the machine. 
 
-*The programme says "no change is given" and asks for "exact payment only". This feature will be improved, along with many others, in the future! See the [Forthcoming Progressive Enhancements](https://github.com/Nirvikalpa108/vending-machine/blob/master/README.md#forthcoming-progressive-enhancements) section for further details.*
+*There is a list of money denominations currently in the vending machine.*
 * As a customer, each time I enter money into the machine, I would like to be told my **oustanding balance** so I know how much I have left to pay. 
 
-*the user is prompted to add money into the machine, until the outstanding balance is zero or less.*
+*It is possible to pay money into the machine. Each time this is done, an outstanding balance is given until this is zero or less. In a **Forthcoming Progressive Enhancement**, change will be calculated and given.*
 
 ### Owner
 * As an owner, I can read a list of all the **product names and their quantities** currently inside the vending machine, so that I can determine what I need to re-stock.
@@ -47,10 +47,8 @@ Ensure you have installed [Ruby](https://www.ruby-lang.org/en/downloads/), [Ruby
 xxxxxxxxxx
 
 ## Forthcoming Progressive Enhancements
-* In the first iteration of this programme, we have focused only on the customer user journey due to time constraints. We will complete the owner's user journey in a forthcoming iteration. 
-* We have left out key features required for the customer user journey, again due to time constraints. This includes stating the quantity of each product as soon as the programme is run, along with the product name and price.
-* In addition, we would like to make it possible for a customer to purchase more than one product and for them to be prompted if they have misspelt it.
-* We would like the programme to offer change to the customer and say which denominations of change are available.
+* In the first iteration of this programme, we have focused only on the customer user journey and the business logic (rather than a programme you can interact with in the console), due to time constraints.
+* In the future we would like to make it possible for a customer to purchase more than one product and to be offered change.
 
 ## Help
 If you run into any problems in the setup or installation of this programme, please raise an issue or if you're not familiar with GitHub, please feel free to reach out on [Twitter](https://twitter.com/a_adewusi). 

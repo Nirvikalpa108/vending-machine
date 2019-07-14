@@ -19,7 +19,7 @@ Ensure you have installed [Ruby](https://www.ruby-lang.org/en/downloads/), [Ruby
 
 1. Load the template library ```require './vending_machine.rb'```
 
-1. Start using your vending machine: ```Purchase.new```
+1. Start using your vending machine: ```VendingMachine.new```
 
 ## User stories
 
